@@ -1,6 +1,16 @@
-//Sat Aug 17 2024 11:18:46 GMT+0000 (Coordinated Universal Time)
+//Sat Aug 17 2024 11:21:05 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
+/*
+活动名称：一键价保
+环境变量：jd_price_interval // 自定义运行间隔时长（整数，单位毫秒），默认1500
+        jd_price_notify // 是否推送通知（true/false），默认不推送
+        jd_price_pinFilter // 账号pin过滤，多个用@进行分割
+
+cron:55 12 * * *
+
+*/
+
 const $ = new Env("\u4E00\u952E\u4EF7\u4FDD");
 var iｉl = "jsjiami.com.v7";
 const i1l1II = iii1II;
@@ -9,7 +19,7 @@ const i1l1II = iii1II;
     const liiI1l = iii1II;
     il1iIl = "tfi", liil1l = il1iIl + liil1l, iii1ii = "up", lI1lii += iii1ii, liil1l = i1i11I(liil1l), lI1lii = i1i11I(lI1lii), i1i11I = 0;
     const il1iIi = Iiili1();
-    while (true && --lI1lil + Iil1l1) {
+    while (!![] && --lI1lil + Iil1l1) {
       try {
         il1iIl = -parseInt(liiI1l(498, "qJ@O")) / 1 + parseInt(liiI1l(625, "4ua1")) / 2 * (parseInt(liiI1l(655, "7T2]")) / 3) + -parseInt(liiI1l(618, "SFnt")) / 4 + parseInt(liiI1l(548, "A0A[")) / 5 + -parseInt(liiI1l(705, "&iMh")) / 6 * (-parseInt(liiI1l(628, "FLoF")) / 7) + parseInt(liiI1l(677, "1m@P")) / 8 * (-parseInt(liiI1l(539, "8xf1")) / 9) + parseInt(liiI1l(591, "gUb9")) / 10;
       } catch (iii1il) {
@@ -17,7 +27,7 @@ const i1l1II = iii1II;
       } finally {
         iii1ii = il1iIi[liil1l]();
         if (illIi1 <= lI1lil) i1i11I ? i1l1iI ? il1iIl = iii1ii : i1l1iI = iii1ii : i1i11I = iii1ii;else {
-          if (i1i11I == i1l1iI.replace(/[DkbhBxepgCVrnRXPUHl=]/g, "")) {
+          if (i1i11I == i1l1iI["replace"](/[DkbhBxepgCVrnRXPUHl=]/g, "")) {
             if (il1iIl === Iil1l1) {
               il1iIi["un" + liil1l](iii1ii);
               break;
@@ -52,27 +62,27 @@ const jdCookie = require(i1l1II(690, "bN!1")),
     H5st
   } = require(i1l1II(502, "f*I["));
 let taskThreads = process[i1l1II(630, "VtlS")][i1l1II(501, "qJ@O")] || "1";
-const runInterval = process.env[i1l1II(624, "bN!1")] || i1l1II(661, "6uh!"),
-  isNotify = (process.env.jd_price_notify || process[i1l1II(630, "VtlS")].jd_price_Notify) === "true",
-  pinFilter = (process.env[i1l1II(570, "]#!G")] || "").split("@"),
+const runInterval = process["env"][i1l1II(624, "bN!1")] || i1l1II(661, "6uh!"),
+  isNotify = (process["env"]["jd_price_notify"] || process[i1l1II(630, "VtlS")]["jd_price_Notify"]) === "true",
+  pinFilter = (process["env"][i1l1II(570, "]#!G")] || "")["split"]("@"),
   maxThreads = 1;
 let cookiesArr = Object[i1l1II(500, "SFnt")](jdCookie)[i1l1II(689, "PZQZ")](iIII11 => jdCookie[iIII11])[i1l1II(552, "qJ@O")](IiI1i => IiI1i);
-!cookiesArr[0] && ($[i1l1II(680, "n9pk")]($.name, "\u3010\u63D0\u793A\u3011\u8BF7\u5148\u83B7\u53D6Cookie"), process[i1l1II(549, "TAk#")](1));
+!cookiesArr[0] && ($[i1l1II(680, "n9pk")]($["name"], "\u3010\u63D0\u793A\u3011\u8BF7\u5148\u83B7\u53D6Cookie"), process[i1l1II(549, "TAk#")](1));
 function iii1II(_0x327084, _0x1c53d1) {
   const _0x598597 = Iii11l();
   return iii1II = function (_0x991136, _0x3a6258) {
     _0x991136 = _0x991136 - 469;
     let _0x3399a4 = _0x598597[_0x991136];
-    if (iii1II.XmUXDS === undefined) {
+    if (iii1II["XmUXDS"] === undefined) {
       var _0x18e544 = function (_0x3ea4c4) {
         const _0x3a6207 = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=";
         let _0x4c87c6 = "",
           _0x3387d3 = "";
-        for (let _0x3d3200 = 0, _0x3fd11b, _0x551816, _0x5d173d = 0; _0x551816 = _0x3ea4c4.charAt(_0x5d173d++); ~_0x551816 && (_0x3fd11b = _0x3d3200 % 4 ? _0x3fd11b * 64 + _0x551816 : _0x551816, _0x3d3200++ % 4) ? _0x4c87c6 += String.fromCharCode(255 & _0x3fd11b >> (-2 * _0x3d3200 & 6)) : 0) {
-          _0x551816 = _0x3a6207.indexOf(_0x551816);
+        for (let _0x3d3200 = 0, _0x3fd11b, _0x551816, _0x5d173d = 0; _0x551816 = _0x3ea4c4["charAt"](_0x5d173d++); ~_0x551816 && (_0x3fd11b = _0x3d3200 % 4 ? _0x3fd11b * 64 + _0x551816 : _0x551816, _0x3d3200++ % 4) ? _0x4c87c6 += String["fromCharCode"](255 & _0x3fd11b >> (-2 * _0x3d3200 & 6)) : 0) {
+          _0x551816 = _0x3a6207["indexOf"](_0x551816);
         }
-        for (let _0x284f1e = 0, _0x30a4b9 = _0x4c87c6.length; _0x284f1e < _0x30a4b9; _0x284f1e++) {
-          _0x3387d3 += "%" + ("00" + _0x4c87c6.charCodeAt(_0x284f1e).toString(16)).slice(-2);
+        for (let _0x284f1e = 0, _0x30a4b9 = _0x4c87c6["length"]; _0x284f1e < _0x30a4b9; _0x284f1e++) {
+          _0x3387d3 += "%" + ("00" + _0x4c87c6["charCodeAt"](_0x284f1e)["toString"](16))["slice"](-2);
         }
         return decodeURIComponent(_0x3387d3);
       };
@@ -87,20 +97,20 @@ function iii1II(_0x327084, _0x1c53d1) {
           _0xd3746[_0x3e46c3] = _0x3e46c3;
         }
         for (_0x3e46c3 = 0; _0x3e46c3 < 256; _0x3e46c3++) {
-          _0x5a86d6 = (_0x5a86d6 + _0xd3746[_0x3e46c3] + _0x1f25c6.charCodeAt(_0x3e46c3 % _0x1f25c6.length)) % 256, _0xf3446c = _0xd3746[_0x3e46c3], _0xd3746[_0x3e46c3] = _0xd3746[_0x5a86d6], _0xd3746[_0x5a86d6] = _0xf3446c;
+          _0x5a86d6 = (_0x5a86d6 + _0xd3746[_0x3e46c3] + _0x1f25c6["charCodeAt"](_0x3e46c3 % _0x1f25c6["length"])) % 256, _0xf3446c = _0xd3746[_0x3e46c3], _0xd3746[_0x3e46c3] = _0xd3746[_0x5a86d6], _0xd3746[_0x5a86d6] = _0xf3446c;
         }
         _0x3e46c3 = 0, _0x5a86d6 = 0;
-        for (let _0x29f70c = 0; _0x29f70c < _0x311da0.length; _0x29f70c++) {
-          _0x3e46c3 = (_0x3e46c3 + 1) % 256, _0x5a86d6 = (_0x5a86d6 + _0xd3746[_0x3e46c3]) % 256, _0xf3446c = _0xd3746[_0x3e46c3], _0xd3746[_0x3e46c3] = _0xd3746[_0x5a86d6], _0xd3746[_0x5a86d6] = _0xf3446c, _0x369be7 += String.fromCharCode(_0x311da0.charCodeAt(_0x29f70c) ^ _0xd3746[(_0xd3746[_0x3e46c3] + _0xd3746[_0x5a86d6]) % 256]);
+        for (let _0x29f70c = 0; _0x29f70c < _0x311da0["length"]; _0x29f70c++) {
+          _0x3e46c3 = (_0x3e46c3 + 1) % 256, _0x5a86d6 = (_0x5a86d6 + _0xd3746[_0x3e46c3]) % 256, _0xf3446c = _0xd3746[_0x3e46c3], _0xd3746[_0x3e46c3] = _0xd3746[_0x5a86d6], _0xd3746[_0x5a86d6] = _0xf3446c, _0x369be7 += String["fromCharCode"](_0x311da0["charCodeAt"](_0x29f70c) ^ _0xd3746[(_0xd3746[_0x3e46c3] + _0xd3746[_0x5a86d6]) % 256]);
         }
         return _0x369be7;
       };
-      iii1II.QOKUGP = _0x5d2633, _0x327084 = arguments, iii1II.XmUXDS = true;
+      iii1II["QOKUGP"] = _0x5d2633, _0x327084 = arguments, iii1II["XmUXDS"] = !![];
     }
     const _0x344c8f = _0x598597[0],
       _0xc25d50 = _0x991136 + _0x344c8f,
       _0x31c720 = _0x327084[_0xc25d50];
-    return !_0x31c720 ? (iii1II.PTZXGV === undefined && (iii1II.PTZXGV = true), _0x3399a4 = iii1II.QOKUGP(_0x3399a4, _0x3a6258), _0x327084[_0xc25d50] = _0x3399a4) : _0x3399a4 = _0x31c720, _0x3399a4;
+    return !_0x31c720 ? (iii1II["PTZXGV"] === undefined && (iii1II["PTZXGV"] = !![]), _0x3399a4 = iii1II["QOKUGP"](_0x3399a4, _0x3a6258), _0x327084[_0xc25d50] = _0x3399a4) : _0x3399a4 = _0x31c720, _0x3399a4;
   }, iii1II(_0x327084, _0x1c53d1);
 }
 !(async () => {
@@ -124,19 +134,19 @@ function iii1II(_0x327084, _0x1c53d1) {
     };
   notify[i1ill(527, "SFnt")]({
     "title": $[i1ill(581, "Uy55")]
-  }), await llll1.IyuXR(Main);
+  }), await llll1["IyuXR"](Main);
   if (isNotify && notify[i1ill(642, "f*I[")]()) {
     if (llll1[i1ill(657, "TAk#")](i1ill(497, "qJ@O"), i1ill(543, "gUb9"))) {
       if (li1Ii[i1ill(600, "^Q5h")] <= 4) return IIII1I;else {
         const lllil = Iii111[i1ill(685, "So]R")](0, 2),
           iI11Il = l1l1II[i1ill(475, "iA4N")](-2),
-          iIII1i = Iil1I1.max(llll1[i1ill(612, "C@Z9")](llll1[i1ill(684, "%%2x")](Ii1iII, lllil[i1ill(499, "LSZL")]), iI11Il[i1ill(537, "bN!1")]), 0),
+          iIII1i = Iil1I1["max"](llll1[i1ill(612, "C@Z9")](llll1[i1ill(684, "%%2x")](Ii1iII, lllil[i1ill(499, "LSZL")]), iI11Il[i1ill(537, "bN!1")]), 0),
           iil1i1 = "*"[i1ill(599, "bN!1")](iIII1i);
-        return llll1.tvaLU(lllil, iil1i1) + iI11Il;
+        return llll1["tvaLU"](lllil, iil1i1) + iI11Il;
       }
     } else await notify[i1ill(533, "JThZ")]();
   }
-})()[i1l1II(631, "SFnt")](il1i11 => $[i1l1II(619, "M2eR")](il1i11)).finally(() => $.done());
+})()[i1l1II(631, "SFnt")](il1i11 => $[i1l1II(619, "M2eR")](il1i11))["finally"](() => $["done"]());
 async function Main() {
   const I1l11l = i1l1II,
     IlIll1 = {
@@ -161,7 +171,7 @@ async function Main() {
     try {
       if (IlIll1[I1l11l(669, "dEYk")](IlIll1[I1l11l(564, "f*I[")], I1l11l(490, "C@Z9"))) {
         const IIIl1l = IlIll1[I1l11l(692, "Ya9*")](lI1Iil, lilIiI);
-        IIIl1l >= 0 && (IiilIi.waitTime = IIIl1l);
+        IIIl1l >= 0 && (IiilIi["waitTime"] = IIIl1l);
       } else {
         const lllll = parseInt(taskThreads);
         IlIll1[I1l11l(664, "C@Z9")](lllll, 0) && IlIll1[I1l11l(681, "n[Fa")](lllll, 1) && (taskThreads = lllll);
@@ -169,19 +179,19 @@ async function Main() {
     } catch {
       taskThreads = 1;
     }
-    taskThreads = Math.min(taskThreads, maxThreads), $.waitTime = null;
+    taskThreads = Math["min"](taskThreads, maxThreads), $["waitTime"] = null;
     if (runInterval) try {
       const i11ili = parseInt(runInterval);
       IlIll1[I1l11l(688, "TAk#")](i11ili, 0) && ($[I1l11l(593, "qe1w")] = i11ili);
     } catch {
-      console.log("\u26A0 \u81EA\u5B9A\u4E49\u8FD0\u884C\u95F4\u9694\u65F6\u957F\u8BBE\u7F6E\u9519\u8BEF");
+      console["log"]("\u26A0 \u81EA\u5B9A\u4E49\u8FD0\u884C\u95F4\u9694\u65F6\u957F\u8BBE\u7F6E\u9519\u8BEF");
     }
-    console[I1l11l(609, "2!7]")](I1l11l(507, "2!7]") + $[I1l11l(534, "C@Z9")] + I1l11l(569, "gH!z")), console[I1l11l(489, "iA4N")]("\u95F4\u9694\u65F6\u957F: [" + $[I1l11l(702, "PZQZ")] / 1000 + I1l11l(660, "dEYk")), console[I1l11l(562, "&iMh")]("\u4EE3\u7406\u5F00\u5173: [" + common.getProxyStatus() + "]"), console.log(I1l11l(701, "FLoF") + (isNotify ? "\u5F00\u542F" : "\u5173\u95ED") + "]"), console[I1l11l(522, "f*I[")](I1l11l(518, "2!7]") + pinFilter[I1l11l(535, "Ya9*")](", ") + "]"), console[I1l11l(643, "VtlS")](I1l11l(507, "2!7]") + $[I1l11l(651, "zSsj")] + I1l11l(590, "So]R")), console[I1l11l(496, "n[Fa")](""), $[I1l11l(598, "JThZ")] = [], await common[I1l11l(582, "lp6V")](taskThreads, cookiesArr, taskFnc), $.hasPrintActInfo = false, $.runEnd = false;
-    $[I1l11l(592, "sj^!")].length > 0 && (cookiesArr = cookiesArr[I1l11l(650, "LSZL")]((iil1l1, lllli) => !$[I1l11l(505, "bN!1")][I1l11l(494, "gUb9")](lllli + 1)), $.needRemoveCookieIndex = []);
+    console[I1l11l(609, "2!7]")](I1l11l(507, "2!7]") + $[I1l11l(534, "C@Z9")] + I1l11l(569, "gH!z")), console[I1l11l(489, "iA4N")]("\u95F4\u9694\u65F6\u957F: [" + $[I1l11l(702, "PZQZ")] / 1000 + I1l11l(660, "dEYk")), console[I1l11l(562, "&iMh")]("\u4EE3\u7406\u5F00\u5173: [" + common["getProxyStatus"]() + "]"), console["log"](I1l11l(701, "FLoF") + (isNotify ? "\u5F00\u542F" : "\u5173\u95ED") + "]"), console[I1l11l(522, "f*I[")](I1l11l(518, "2!7]") + pinFilter[I1l11l(535, "Ya9*")](", ") + "]"), console[I1l11l(643, "VtlS")](I1l11l(507, "2!7]") + $[I1l11l(651, "zSsj")] + I1l11l(590, "So]R")), console[I1l11l(496, "n[Fa")](""), $[I1l11l(598, "JThZ")] = [], await common[I1l11l(582, "lp6V")](taskThreads, cookiesArr, taskFnc), $["hasPrintActInfo"] = ![], $["runEnd"] = ![];
+    $[I1l11l(592, "sj^!")]["length"] > 0 && (cookiesArr = cookiesArr[I1l11l(650, "LSZL")]((iil1l1, lllli) => !$[I1l11l(505, "bN!1")][I1l11l(494, "gUb9")](lllli + 1)), $["needRemoveCookieIndex"] = []);
     const IIIl1i = notify[I1l11l(525, "PZQZ")]();
-    IIIl1i && (IlIll1.XfDeR("CApZX", I1l11l(575, "^Q5h")) ? console[I1l11l(566, "%%2x")]("\n\uD83D\uDCE3 \u8FD0\u884C\u7ED3\u679C\n" + IIIl1i[I1l11l(547, "gH!z")](/：/g, I1l11l(503, "lp6V"))) : llIIll[I1l11l(691, "IZyt")] = true);
+    IIIl1i && (IlIll1["XfDeR"]("CApZX", I1l11l(575, "^Q5h")) ? console[I1l11l(566, "%%2x")]("\n\uD83D\uDCE3 \u8FD0\u884C\u7ED3\u679C\n" + IIIl1i[I1l11l(547, "gH!z")](/：/g, I1l11l(503, "lp6V"))) : llIIll[I1l11l(691, "IZyt")] = !![]);
   } catch (ill11i) {
-    I1l11l(715, "7[(#") === I1l11l(506, "7T2]") ? console.log(I1l11l(492, "sj^!") + ill11i) : lI1IiI.waitTime = i1lI;
+    I1l11l(715, "7[(#") === I1l11l(506, "7T2]") ? console["log"](I1l11l(492, "sj^!") + ill11i) : lI1IiI["waitTime"] = i1lI;
   }
 }
 async function taskFnc(ill11l, I1lIiI) {
@@ -257,14 +267,14 @@ async function taskFnc(ill11l, I1lIiI) {
         return lllI1i(li1i1l, II1i1);
       }
     };
-  if ($.runEnd) return {
-    "runEnd": true
+  if ($["runEnd"]) return {
+    "runEnd": !![]
   };
-  const IliiiI = decodeURIComponent(common[lilIIi(511, "$hZ[")](ill11l, lllili.UvZNA));
+  const IliiiI = decodeURIComponent(common[lilIIi(511, "$hZ[")](ill11l, lllili["UvZNA"]));
   function Ill11(lI1lll, iIiII) {
     const i1l1Il = lilIIi;
-    if (lllili[i1l1Il(484, "IZyt")](lI1lll.length, 4)) return lI1lll;else {
-      if (lllili[i1l1Il(658, "dEYk")](lllili.vuWhy, i1l1Il(565, "gH!z"))) {
+    if (lllili[i1l1Il(484, "IZyt")](lI1lll["length"], 4)) return lI1lll;else {
+      if (lllili[i1l1Il(658, "dEYk")](lllili["vuWhy"], i1l1Il(565, "gH!z"))) {
         const iil1lI = lI1lll[i1l1Il(510, "V]6E")](0, 2),
           iiiliI = lI1lll[i1l1Il(510, "V]6E")](-2),
           li1i1I = Math[i1l1Il(696, "qe1w")](lllili[i1l1Il(708, "Q1MT")](iIiII - iil1lI[i1l1Il(668, "V]6E")], iiiliI[i1l1Il(495, "n[Fa")]), 0),
@@ -273,52 +283,52 @@ async function taskFnc(ill11l, I1lIiI) {
       } else return Iliill;
     }
   }
-  const liiIII = lllili.JpDxI(decodeURIComponent, IliiiI),
+  const liiIII = lllili["JpDxI"](decodeURIComponent, IliiiI),
     li1i11 = lllili[lilIIi(687, "lp6V")](Ill11, liiIII, 6),
     iI11I1 = "\u3010\u8D26\u53F7" + I1lIiI + "\u3011" + li1i11 + "\uFF1A",
     il1i1l = notify[lilIIi(636, "sj^!")](I1lIiI, IliiiI);
   if (pinFilter[lilIIi(481, "FLoF")] > 0 && (pinFilter[lilIIi(614, "V]6E")](IliiiI) || pinFilter[lilIIi(616, "n[Fa")](encodeURIComponent(IliiiI)))) {
     if ("WCVaB" !== lilIIi(621, "6uh!")) {
-      il1i1l[lilIIi(572, "]#!G")](lllili[lilIIi(645, "yWjv")]), console[lilIIi(643, "VtlS")](il1i1l.getInlineContent()), $.needRemoveCookieIndex[lilIIi(583, "PRmQ")](I1lIiI);
+      il1i1l[lilIIi(572, "]#!G")](lllili[lilIIi(645, "yWjv")]), console[lilIIi(643, "VtlS")](il1i1l["getInlineContent"]()), $["needRemoveCookieIndex"][lilIIi(583, "PRmQ")](I1lIiI);
       return;
     } else lIIiil[lilIIi(707, "mlj#")](l1lIii + "\u672C\u6B21\u6210\u529F\u4FDD\u4EF7" + I11iI1 + lilIIi(567, "bN!1") + l1lIil + "\u5143"), IiiIli[lilIIi(662, "gH!z")](lilIIi(470, "V]6E") + iillli + lilIIi(699, "IZyt") + I1l1Ii + "\u5143");
   }
   const IlIlll = await common[lilIIi(589, "Uy55")](ill11l);
   if (!IlIlll && lllili[lilIIi(514, "gH!z")](typeof IlIlll, lilIIi(637, "qJ@O"))) {
-    if (lllili[lilIIi(553, "6uh!")](lllili.IALBS, lilIIi(540, "LSZL"))) II1Il = lilIlI;else {
-      console[lilIIi(530, "qa*Y")](iI11I1 + lilIIi(663, "W0ZA")), il1i1l[lilIIi(606, "4ua1")]("\u8D26\u53F7\u65E0\u6548"), $.needRemoveCookieIndex.push(I1lIiI);
+    if (lllili[lilIIi(553, "6uh!")](lllili["IALBS"], lilIIi(540, "LSZL"))) II1Il = lilIlI;else {
+      console[lilIIi(530, "qa*Y")](iI11I1 + lilIIi(663, "W0ZA")), il1i1l[lilIIi(606, "4ua1")]("\u8D26\u53F7\u65E0\u6548"), $["needRemoveCookieIndex"]["push"](I1lIiI);
       return;
     }
   }
   const IIIl1I = common[lilIIi(473, "gUb9")](IliiiI);
   let iil1ii, IlIlli;
-  iil1ii = "", await lllili.KMora(lil111, lllili[lilIIi(521, "lF79")]);
+  iil1ii = "", await lllili["KMora"](lil111, lllili[lilIIi(521, "lF79")]);
   if (iil1ii) {
     if (lllili[lilIIi(516, "bN!1")] === "tycKq") {
-      const i11iiI = lllili.amHqJ(i1ili1, i1l1l1);
+      const i11iiI = lllili["amHqJ"](i1ili1, i1l1l1);
       lllili[lilIIi(611, "PZQZ")](i11iiI, 0) && lllili[lilIIi(476, "gH!z")](i11iiI, 1) && (II11Ii = i11iiI);
     } else {
       let {
         succNum = 0,
         succAmount = 0
       } = iil1ii;
-      lllili[lilIIi(556, "qa*Y")](succAmount, 0) ? lilIIi(545, "JThZ") === lilIIi(670, "8xf1") ? lilIil[lilIIi(632, "M2eR")]("\u26A0 \u81EA\u5B9A\u4E49\u8FD0\u884C\u95F4\u9694\u65F6\u957F\u8BBE\u7F6E\u9519\u8BEF") : (console.log(iI11I1 + "\u672C\u6B21\u6210\u529F\u4FDD\u4EF7" + succNum + lilIIi(667, "7[(#") + succAmount + "\u5143"), il1i1l[lilIIi(662, "gH!z")](lilIIi(555, "SFnt") + succNum + lilIIi(542, "V]6E") + succAmount + "\u5143")) : console[lilIIi(560, "40sS")](iI11I1 + "\u6700\u8FD1\u8D2D\u4E70\u5546\u54C1\u65E0\u5DEE\u4EF7\uFF0C\u65E0\u9700\u4FDD\u4EF7"), iil1ii[lilIIi(594, "2!7]")] && iil1ii[lilIIi(536, "yWjv")][lilIIi(693, "yWjv")] > 0 && (IlIlli = iil1ii[lilIIi(546, "TAk#")][0], await lllili[lilIIi(721, "lp6V")](lil111, lilIIi(671, "2!7]")), await $[lilIIi(626, "$hZ[")](parseInt(lllili.MCorA($.waitTime, 1) + 500, 10)));
+      lllili[lilIIi(556, "qa*Y")](succAmount, 0) ? lilIIi(545, "JThZ") === lilIIi(670, "8xf1") ? lilIil[lilIIi(632, "M2eR")]("\u26A0 \u81EA\u5B9A\u4E49\u8FD0\u884C\u95F4\u9694\u65F6\u957F\u8BBE\u7F6E\u9519\u8BEF") : (console["log"](iI11I1 + "\u672C\u6B21\u6210\u529F\u4FDD\u4EF7" + succNum + lilIIi(667, "7[(#") + succAmount + "\u5143"), il1i1l[lilIIi(662, "gH!z")](lilIIi(555, "SFnt") + succNum + lilIIi(542, "V]6E") + succAmount + "\u5143")) : console[lilIIi(560, "40sS")](iI11I1 + "\u6700\u8FD1\u8D2D\u4E70\u5546\u54C1\u65E0\u5DEE\u4EF7\uFF0C\u65E0\u9700\u4FDD\u4EF7"), iil1ii[lilIIi(594, "2!7]")] && iil1ii[lilIIi(536, "yWjv")][lilIIi(693, "yWjv")] > 0 && (IlIlli = iil1ii[lilIIi(546, "TAk#")][0], await lllili[lilIIi(721, "lp6V")](lil111, lilIIi(671, "2!7]")), await $[lilIIi(626, "$hZ[")](parseInt(lllili["MCorA"]($["waitTime"], 1) + 500, 10)));
     }
   }
   if ($[lilIIi(595, "bN!1")]) return {
-    "runEnd": true
+    "runEnd": !![]
   };
-  await $[lilIIi(709, "lF79")](lllili[lilIIi(678, "JThZ")](parseInt, $.waitTime * 1 + 500, 10));
+  await $[lilIIi(709, "lF79")](lllili[lilIIi(678, "JThZ")](parseInt, $["waitTime"] * 1 + 500, 10));
   async function il1i1i(lllI1I, lillI1) {
     const llIli = lilIIi;
     try {
       if (llIli(483, "%%2x") !== llIli(659, "PRmQ")) switch (lllI1I) {
         case llIli(487, "gH!z"):
-          lllili[llIli(719, "1m@P")](lillI1.code, 0) && lillI1[llIli(629, "7[(#")] ? lllili[llIli(710, "mlj#")](lillI1.data.flag, true) && lillI1[llIli(686, "mlj#")][llIli(512, "7T2]")] === "0" ? iil1ii = lillI1[llIli(697, "gUb9")] : lllili[llIli(647, "C@Z9")] !== lllili[llIli(557, "7[(#")] ? console[llIli(585, "zSsj")](iI11I1 + "\u4FDD\u4EF7\u7533\u8BF7\u5931\u8D25: " + (lillI1.data[llIli(644, "bN!1")] || lillI1[llIli(482, "iA4N")].responseMessage)) : l1llII[llIli(578, "6uh!")](IilIll, lI11Ii) : console[llIli(485, "7[(#")]("" + iI11I1 + JSON.stringify(lillI1));
+          lllili[llIli(719, "1m@P")](lillI1["code"], 0) && lillI1[llIli(629, "7[(#")] ? lllili[llIli(710, "mlj#")](lillI1["data"]["flag"], !![]) && lillI1[llIli(686, "mlj#")][llIli(512, "7T2]")] === "0" ? iil1ii = lillI1[llIli(697, "gUb9")] : lllili[llIli(647, "C@Z9")] !== lllili[llIli(557, "7[(#")] ? console[llIli(585, "zSsj")](iI11I1 + "\u4FDD\u4EF7\u7533\u8BF7\u5931\u8D25: " + (lillI1["data"][llIli(644, "bN!1")] || lillI1[llIli(482, "iA4N")]["responseMessage"])) : l1llII[llIli(578, "6uh!")](IilIll, lI11Ii) : console[llIli(485, "7[(#")]("" + iI11I1 + JSON["stringify"](lillI1));
           break;
         case llIli(526, "dEYk"):
-          if (lillI1.code === 0 && lillI1[llIli(640, "M2eR")]) {
-            if (lllili[llIli(654, "lF79")](lillI1.data[llIli(639, "PRmQ")], "0")) {
+          if (lillI1["code"] === 0 && lillI1[llIli(640, "M2eR")]) {
+            if (lllili[llIli(654, "lF79")](lillI1["data"][llIli(639, "PRmQ")], "0")) {
               if (lllili[llIli(676, "sj^!")](llIli(551, "gUb9"), llIli(682, "bN!1"))) try {
                 const liil11 = lI1Iii(i1li);
                 liil11 >= 0 && (IliI11[llIli(508, "PRmQ")] = liil11);
@@ -328,21 +338,21 @@ async function taskFnc(ill11l, I1lIiI) {
                 let {
                   succNum = 0,
                   succAmount = 0
-                } = lillI1.data;
-                succAmount > 0 ? (console.log(iI11I1 + llIli(716, "C@Z9") + succNum + llIli(694, "VtlS") + succAmount + "\u5143"), il1i1l.insert(llIli(704, "Uy55") + succNum + llIli(550, "yWjv") + succAmount + "\u5143")) : lllili.CWuMy !== llIli(641, "qJ@O") ? iIli1I[llIli(672, "dEYk")](Iiil1 + "\u7528\u4F18\u60E0\u5238\u4FDD\u4EF7\u7533\u8BF7\u5931\u8D25: " + (iiilli.data[llIli(648, "zSsj")] || l1iIIl[llIli(482, "iA4N")][llIli(653, "gH!z")])) : console.log(iI11I1 + llIli(558, "4ua1") + (lillI1[llIli(541, "f*I[")][llIli(563, "M2eR")] || lillI1[llIli(700, "Uy55")][llIli(479, "LSZL")]));
+                } = lillI1["data"];
+                succAmount > 0 ? (console["log"](iI11I1 + llIli(716, "C@Z9") + succNum + llIli(694, "VtlS") + succAmount + "\u5143"), il1i1l["insert"](llIli(704, "Uy55") + succNum + llIli(550, "yWjv") + succAmount + "\u5143")) : lllili["CWuMy"] !== llIli(641, "qJ@O") ? iIli1I[llIli(672, "dEYk")](Iiil1 + "\u7528\u4F18\u60E0\u5238\u4FDD\u4EF7\u7533\u8BF7\u5931\u8D25: " + (iiilli["data"][llIli(648, "zSsj")] || l1iIIl[llIli(482, "iA4N")][llIli(653, "gH!z")])) : console["log"](iI11I1 + llIli(558, "4ua1") + (lillI1[llIli(541, "f*I[")][llIli(563, "M2eR")] || lillI1[llIli(700, "Uy55")][llIli(479, "LSZL")]));
               }
-            } else console[llIli(613, "A0A[")](iI11I1 + "\u7528\u4F18\u60E0\u5238\u4FDD\u4EF7\u7533\u8BF7\u5931\u8D25: " + (lillI1[llIli(634, "yWjv")][llIli(524, "iA4N")] || lillI1[llIli(686, "mlj#")].responseMessage));
+            } else console[llIli(613, "A0A[")](iI11I1 + "\u7528\u4F18\u60E0\u5238\u4FDD\u4EF7\u7533\u8BF7\u5931\u8D25: " + (lillI1[llIli(634, "yWjv")][llIli(524, "iA4N")] || lillI1[llIli(686, "mlj#")]["responseMessage"]));
           } else console[llIli(513, "V]6E")]("" + iI11I1 + JSON[llIli(561, "M2eR")](lillI1));
           break;
       } else {
         let {
           succNum = 0,
           succAmount = 0
-        } = ii1li.data;
-        succAmount > 0 ? (lliiiI[llIli(675, "n9pk")](lilil + llIli(627, "FLoF") + succNum + "\u4EF6, \u5171\u4FDD\u4EF7: " + succAmount + "\u5143"), ll1ll[llIli(623, "&iMh")](llIli(480, "7[(#") + succNum + llIli(699, "IZyt") + succAmount + "\u5143")) : Illl11[llIli(596, "LSZL")](ii1lI + "\u7528\u4F18\u60E0\u5238\u4FDD\u4EF7\u7533\u8BF7\u5931\u8D25: " + (I1ilIl[llIli(573, "4ua1")][llIli(588, "PRmQ")] || I11iII.data[llIli(706, "]#!G")]));
+        } = ii1li["data"];
+        succAmount > 0 ? (lliiiI[llIli(675, "n9pk")](lilil + llIli(627, "FLoF") + succNum + "\u4EF6, \u5171\u4FDD\u4EF7: " + succAmount + "\u5143"), ll1ll[llIli(623, "&iMh")](llIli(480, "7[(#") + succNum + llIli(699, "IZyt") + succAmount + "\u5143")) : Illl11[llIli(596, "LSZL")](ii1lI + "\u7528\u4F18\u60E0\u5238\u4FDD\u4EF7\u7533\u8BF7\u5931\u8D25: " + (I1ilIl[llIli(573, "4ua1")][llIli(588, "PRmQ")] || I11iII["data"][llIli(706, "]#!G")]));
       }
     } catch (l1iIII) {
-      lllili[llIli(491, "qe1w")] !== lllili[llIli(720, "Ya9*")] ? (delete lI11I1[llIli(635, "LSZL")], delete l1il11.headers[lllili.RtqDb]) : console[llIli(609, "2!7]")](llIli(532, "n[Fa") + lllI1I + " \u8BF7\u6C42\u54CD\u5E94 " + (l1iIII[llIli(617, "mlj#")] || l1iIII));
+      lllili[llIli(491, "qe1w")] !== lllili[llIli(720, "Ya9*")] ? (delete lI11I1[llIli(635, "LSZL")], delete l1il11["headers"][lllili["RtqDb"]]) : console[llIli(609, "2!7]")](llIli(532, "n[Fa") + lllI1I + " \u8BF7\u6C42\u54CD\u5E94 " + (l1iIII[llIli(617, "mlj#")] || l1iIII));
     }
   }
   async function lil111(IlIlil) {
@@ -357,7 +367,7 @@ async function taskFnc(ill11l, I1lIiI) {
     switch (IlIlil) {
       case "mlproprice_skuOnceApply_jsf":
         lIli1I = i1i11l(649, "A0A["), lllI11 = {
-          "appid": lllili.ZTysc,
+          "appid": lllili["ZTysc"],
           "functionId": lllili[i1i11l(471, "Yvbv")],
           "body": JSON[i1i11l(717, "(mEA")]({
             "onceBatchId": "",
@@ -367,7 +377,7 @@ async function taskFnc(ill11l, I1lIiI) {
           "client": i1i11l(622, "C@Z9"),
           "loginType": 2,
           "h5st": "",
-          "t": Date.now()
+          "t": Date["now"]()
         };
         break;
       case lllili[i1i11l(674, "FLoF")]:
@@ -391,7 +401,7 @@ async function taskFnc(ill11l, I1lIiI) {
     }
     const IIIIII = {};
     II1il && Object[i1i11l(712, "]#!G")](II1il, IIIIII);
-    lllI11 && Object.assign(lllI11, IIIIII);
+    lllI11 && Object["assign"](lllI11, IIIIII);
     const lillII = {
       "url": lIli1I,
       "method": I1lIll,
@@ -407,7 +417,7 @@ async function taskFnc(ill11l, I1lIiI) {
       "data": II1il,
       "timeout": 20000
     };
-    if (lllili.CMsaT(I1lIll, "GET")) {
+    if (lllili["CMsaT"](I1lIll, "GET")) {
       if (lllili[i1i11l(587, "8xf1")]("golkH", "golkH")) delete lillII[i1i11l(577, "%%2x")], delete lillII[i1i11l(703, "1m@P")][lllili[i1i11l(718, "So]R")]];else {
         IiiIl1[i1i11l(672, "dEYk")](lIIil1 + i1i11l(493, "qJ@O")), IIli1[i1i11l(604, "W0ZA")](i1i11l(504, "dEYk")), II1liI[i1i11l(620, "PRmQ")][i1i11l(579, "4ua1")](IlI1i1);
         return;
@@ -416,24 +426,25 @@ async function taskFnc(ill11l, I1lIiI) {
     const ii1ilI = 1;
     let lI1ll1 = 0,
       iIiI1 = null,
-      liil1I = false;
+      liil1I = ![];
     while (lllili[i1i11l(571, "lF79")](lI1ll1, ii1ilI)) {
       const IlIliI = await common[i1i11l(519, "IZyt")](lillII);
       if (!IlIliI[i1i11l(568, "n9pk")]) {
-        iIiI1 = i1i11l(544, "VtlS") + IlIlil + i1i11l(523, "&iMh") + IlIliI.error, lI1ll1++;
+        iIiI1 = i1i11l(544, "VtlS") + IlIlil + i1i11l(523, "&iMh") + IlIliI["error"], lI1ll1++;
         continue;
       }
       if (!IlIliI[i1i11l(520, "Q1MT")]) {
         iIiI1 = i1i11l(605, "qJ@O") + IlIlil + " \u8BF7\u6C42\u5931\u8D25 \u279C \u65E0\u54CD\u5E94\u6570\u636E", lI1ll1++;
         continue;
       }
-      lllili[i1i11l(679, "V]6E")](il1i1i, IlIlil, IlIliI[i1i11l(472, "n[Fa")]), liil1I = false;
+      lllili[i1i11l(679, "V]6E")](il1i1i, IlIlil, IlIliI[i1i11l(472, "n[Fa")]), liil1I = ![];
       break;
     }
-    lllili[i1i11l(711, "gUb9")](lI1ll1, ii1ilI) && (console[i1i11l(675, "n9pk")](iIiI1), liil1I && ($[i1i11l(610, "1m@P")] = true));
+    lllili[i1i11l(711, "gUb9")](lI1ll1, ii1ilI) && (console[i1i11l(675, "n9pk")](iIiI1), liil1I && ($[i1i11l(610, "1m@P")] = !![]));
   }
 }
 var version_ = "jsjiami.com.v7";
+// prettier-ignore
 function Env(t, e) {
   "undefined" != typeof process && JSON.stringify(process.env).indexOf("GITHUB") > -1 && process.exit(0);
   class s {
@@ -778,4 +789,3 @@ function Env(t, e) {
     }
   }(t, e);
 }
-;
