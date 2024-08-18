@@ -1,39 +1,6 @@
-//Sun Aug 18 2024 03:23:06 GMT+0000 (Coordinated Universal Time)
+//Sun Aug 18 2024 03:29:40 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
-/*
-活动名称：京东资产变动
-环境变量：
-jd_bean_change_interval // 自定义运行间隔时长（整数，单位毫秒），默认1500
-jd_bean_change_pinFilter // 账号pin过滤，多个用@进行分割
-jd_bean_change_farm // 是否开启东东农场查询（true/false），默认开启
-jd_bean_change_xinfarm // 是否开启新东东农场查询（true/false），默认开启
-jd_bean_change_wyw // 是否开启玩一玩奖票查询（true/false），默认开启
-jd_bean_change_ecard // 是否开启E卡余额查询（true/false），默认开启
-jd_bean_change_marketcard // 是否开启超市卡余额查询（true/false），默认开启
-jd_bean_change_phonebill // 是否开启话费积分查询（true/false），默认开启
-jd_bean_change_comment // 是否开启评论查询（true/false），默认开启
-jd_bean_change_hongbao // 是否开启红包查询（true/false），默认开启
-jd_bean_change_jingbean // 是否开启过期京豆查询（true/false），默认开启
-jd_bean_change_market // 是否开启汪贝余额查询（true/false），默认开启
-jd_bean_change_coupon // 是否开启优惠券查询（true/false），默认开启
-jd_bean_change_wallet // 是否开启钱包余额查询（true/false），默认开启
-jd_bean_change_hbChannel // 是否开启小程序省钱币查询（true/false），默认开启
-jd_bean_change_plantBean // 是否开启种豆得豆查询（true/false），默认开启
-jd_bean_change_try // 是否开启试用通知（true/false），默认开启
-jd_bean_change_prizeNotify // 是否单独推送账号通知（true/false），默认不推送
-jd_bean_change_mainnotify // 是否开启成熟和快过期通知（true/false），默认不推送
-jd_bean_change_notify // 是否推送通知（true/false），默认不推送
-jd_bean_change_intpersent  // 分段通知数量，默认5
-
-## wxpusher一对一推送
-export WP_APP_TOKEN_ONE=""  //你的UID
-## 查询变量默认开启，不需要开启的变量请设置为false即可关闭，有条件上代理
-
-cron:15 9 * * *
-
-*/
-
 const $ = new Env("\u4EAC\u4E1C\u8D44\u4EA7\u53D8\u52A8");
 function e4C7uI() {}
 var C6fkrc = Object["defineProperty"],
