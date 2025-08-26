@@ -1,9 +1,6 @@
-//Tue Aug 26 2025 15:16:21 GMT+0000 (Coordinated Universal Time)
+//Tue Aug 26 2025 15:23:17 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
-/*
-cron 28 8,21 * * *
- */
 const $ = new Env("\u4EAC\u4E1C\u8D44\u4EA7\u7EDF\u8BA1");
 var Asacgh, W9CoFU, hdLbPkN, lzRCByk, QLOhgb, fvgBp1W, ElmnxB, j212gFB, cP54GS2, Ghjacat, CNS9OOb, Lo0HNRy, HiUNgiw;
 const hG7fuFC = [0, null, 32, 2, 1, 256, 6, 3, 8, 16, 4, "undefined", "LZString", 255, 7, 13, 14, 15, 88, 91, 907, 128, 127, 223, 31, 63, 239, 12, 913, 18, 903, 8191, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 33554432, 67108864, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, "20", 195, "1", 196, 197, 198, 199, 200, "UA", 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, "-", 217, 218, 219, 220, 221, 222, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 240, 10000, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 23, 59, 251, 252, 24, 60, 1000, 999, 253, 254, 257, 258, 259, 260, 100, 261, 262, 263, 264, 265, 266, 267, 268, 5, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, ")\n", 280, 281, 282, 283, 284, 285, 286, 30, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, "\u51CF", "\u5143", 320, 321, 322, 323, 324, 325, 326, 327, "(", 328, 329, 330, 331, 332, 333, 50, 334, 335, 336, 337, 338, 339, 340, !0, 65537, 341, "\u3010", 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, "=", " ", 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, !1, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, "\n", 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, "&", 465, 466, 467, void 0, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 17, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 10, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, "0", 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, "ua", 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, "rs", 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 679, 680, 681, 682, 683, 684, 685, 686, 687, 28, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 704, 705, 706, 707, 708, 709, 710, 711, 712, 713, 714, 715, 716, 717, 718, 719, 720, 721, ";", 722, 723, 724, 725, 726, 727, 728, 729, 730, 30000, 731, 732, 733, 734, 735, 736, 1711000, 737, 738, 739, 740, 741, 742, "fn", 743, 744, "cl", 745, 746, 747, 748, 749, 750, 751, 752, 753, 754, 755, 756, 757, 758, 759, 760, 761, 762, 763, 764, 765, 766, 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 785, 786, 787, 788, 789, 790, 791, 792, 793, 794, 795, 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 818, 819, 820, 821, 822, 823, 824, ":", 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847, 848, 849, 850, 851, 852, 853, 854, 855, 856, 857, 858, 859, 860, 861, 862, "\u8C46", 863, ",\u652F", 864, 865, 866, "\u8C46,", 867, 868, 869, 870, 871, 872, 873, 874, 875, 876, 877, "\u5143\n", 878, 879, "\u3011", 880, 881, 882, 883, 884, 885, 886, 887, 888, 889, 890, 891, 892, 893, 894, 895, 896, 897, 898, 899, 900, 901, 902, 904, ")", 905, "\u4E2A", 906, 908, 909, 910, 911, 912, 914, "\u5F20", 915, 916, 917, 918, 86400000, 28800000, 919, 924, 923, "\u9000\u8FD8", "\u7269\u6D41", "\u6263\u8D60", 929, 931, 932, 936, 920, 921, "g", "/", 922, 925, "\u8D26\u53F7", "\uFF1A", "3", 926, 927, 928, 946, 960, 963, 940, 941, 966, 968, 986, 971, 977, 975, 987, 981, 973, 979, 972, 978, 974, 980, 976, 982, 995, 996, 997, 998, 1001, 1002, 1003, 1016, 967, 969, 1005, 939, 1027, 935, 1044, 934, "$1", 1053, 1052, "S+", 1054, 1048, 1039, 1064, 1065, 1066, 1061, 1062, 1063, 962, 70, "_", 1045, 1042, 36, 19, 1138, 1043];
@@ -64,7 +61,6 @@ HyiQfGb(Asacgh = function () {
           case ElmnxB - 259:
           case -78:
             HyiQfGb([Ghjacat.N5o4atk.keWJYz, Ghjacat.N5o4atk.HcVjIdN, Ghjacat.N5o4atk.i5bfGuw] = [138, 94, 58], Ghjacat.McRVKi5 = Ghjacat.NqS3MXM, ElmnxB += -195, j212gFB += 170, cP54GS2 += -200);
-            break;
         }
       }
       HyiQfGb(QLOhgb = void 0, ElmnxB = j212gFB(-53, 93, -153).next().value);
@@ -164,7 +160,6 @@ HyiQfGb(Asacgh = function () {
       for (;;) {
         if (KbWgid2 <<= hG7fuFC[4], CKUymH == cP54GS2 - hG7fuFC[4]) {
           v9GtMV.push(Ghjacat(KbWgid2));
-          break;
         }
         CKUymH++;
       }
@@ -293,16 +288,6 @@ function O8MDrF() {
     QLOhgb,
     fvgBp1W;
   HyiQfGb(lzRCByk = void 0, QLOhgb = []);
-  try {
-    HyiQfGb(lzRCByk = Object, QLOhgb[W9CoFU(hG7fuFC[30])](""[W9CoFU(hG7fuFC[870])][W9CoFU(hG7fuFC[872])][W9CoFU(hG7fuFC[874])]));
-  } catch (ElmnxB) {}
-  vbjbdt: for (fvgBp1W = hG7fuFC[0]; fvgBp1W < hdLbPkN[W9CoFU(hG7fuFC[20])]; fvgBp1W++) try {
-    var j212gFB;
-    lzRCByk = hdLbPkN[fvgBp1W]();
-    for (j212gFB = hG7fuFC[0]; j212gFB < QLOhgb[W9CoFU(hG7fuFC[20])]; j212gFB++) if (typeof lzRCByk[QLOhgb[j212gFB]] === W9CoFU(hG7fuFC[0])) continue vbjbdt;
-    return lzRCByk;
-  } catch (ElmnxB) {}
-  return lzRCByk || this;
 }
 HyiQfGb(QLOhgb = O8MDrF() || {}, fvgBp1W = QLOhgb[W9CoFU(hG7fuFC[875])], ElmnxB = QLOhgb[W9CoFU(hG7fuFC[876])], j212gFB = QLOhgb[W9CoFU(hG7fuFC[877])], cP54GS2 = QLOhgb[W9CoFU(hG7fuFC[878])] || String, Ghjacat = QLOhgb[W9CoFU(hG7fuFC[879])] || Array, CNS9OOb = function () {
   var hdLbPkN = new Ghjacat(hG7fuFC[21]),
@@ -595,7 +580,6 @@ function ReyEOZ(QLOhgb, fvgBp1W, ElmnxB, j212gFB = {}, cP54GS2, Ghjacat, CNS9OOb
                 cP54GS2 = JSON[NubO03(hG7fuFC[55])](cP54GS2);
                 if (cP54GS2[NubO03(hG7fuFC[56])] === hG7fuFC[15]) {
                   $[NubO03(hG7fuFC[57])] = hG7fuFC[347];
-                  return;
                 }
                 if (cP54GS2[NubO03(hG7fuFC[56])] === hG7fuFC[0]) {
                   function O8MDrF(fvgBp1W) {
@@ -687,10 +671,8 @@ function ReyEOZ(QLOhgb, fvgBp1W, ElmnxB, j212gFB = {}, cP54GS2, Ghjacat, CNS9OOb
                         }
                         if (pXaedSA > -hG7fuFC[4]) {
                           HyiQfGb(CNS9OOb.BYOFNj = CNS9OOb.JWWT2x4, cP54GS2 += 333, Ghjacat += 48);
-                          break;
                         } else {
                           HyiQfGb(CNS9OOb.BYOFNj = CNS9OOb.JWWT2x4, cP54GS2 += 417, Ghjacat += -315);
-                          break;
                         }
                       case -108:
                       case -149:
@@ -717,7 +699,6 @@ function ReyEOZ(QLOhgb, fvgBp1W, ElmnxB, j212gFB = {}, cP54GS2, Ghjacat, CNS9OOb
                       case 78:
                       case -119:
                         HyiQfGb(CNS9OOb.BYOFNj = CNS9OOb.JWWT2x4, cP54GS2 += -404, Ghjacat += 379);
-                        break;
                     }
                   }
                   HyiQfGb(j212gFB = void 0, cP54GS2 = Ghjacat(-102, 276).next().value);
@@ -837,14 +818,11 @@ function ReyEOZ(QLOhgb, fvgBp1W, ElmnxB, j212gFB = {}, cP54GS2, Ghjacat, CNS9OOb
                     }
                     if (mU2vkKc > -hG7fuFC[j212gFB + -182]) {
                       HyiQfGb(b5KmzL.YVK78Ml = b5KmzL.EdcmDW, j212gFB += -286, Ghjacat += 267, CNS9OOb += -20);
-                      break;
                     } else {
                       HyiQfGb(b5KmzL.YVK78Ml = b5KmzL.EdcmDW, j212gFB += -112, Ghjacat += 267, CNS9OOb += -20);
-                      break;
                     }
                   case j212gFB - 454:
                     HyiQfGb([b5KmzL.EdcmDW.eYdqKZL, b5KmzL.EdcmDW._JOI_lB] = [109, -46], EdcmDW.p44pvL = "^CIkSPY3+DGXNHBu_fb<.(7)>epo*@Mgtn=9vE[aQU$1d8,jz0w%FV\"Lxm:{|qly~hr5?W}/O6#!AJR42Z;Ti`]Ksc&", EdcmDW._NNIZx = "" + (fvgBp1W || ""), EdcmDW.I8Owr8H = EdcmDW._NNIZx.length, EdcmDW.oNBbkMV = [], EdcmDW.IdDlzc = hG7fuFC[0], EdcmDW.vWH6ok = hG7fuFC[cP54GS2 + 192], b5KmzL.YVK78Ml = b5KmzL.EdcmDW, j212gFB += -58, cP54GS2 += 76, Ghjacat += 144, CNS9OOb += 89);
-                    break;
                 }
               }
               HyiQfGb(ElmnxB = void 0, j212gFB = cP54GS2(244, -192, -238, -24).next().value);
@@ -922,10 +900,8 @@ function ReyEOZ(QLOhgb, fvgBp1W, ElmnxB, j212gFB = {}, cP54GS2, Ghjacat, CNS9OOb
                         }
                         if (gMMo2C > -hG7fuFC[cP54GS2 + 30]) {
                           HyiQfGb(b5KmzL.ScLyMx = b5KmzL.hLTLgKw, cP54GS2 += -117, CNS9OOb += 21);
-                          break;
                         } else {
                           HyiQfGb(b5KmzL.ScLyMx = b5KmzL.hLTLgKw, cP54GS2 += -193, Ghjacat += 261, CNS9OOb += -304);
-                          break;
                         }
                       case -94:
                       case Ghjacat - 16:
@@ -975,15 +951,12 @@ function ReyEOZ(QLOhgb, fvgBp1W, ElmnxB, j212gFB = {}, cP54GS2, Ghjacat, CNS9OOb
                         }
                         if (gMMo2C > -hG7fuFC[Ghjacat + 653]) {
                           HyiQfGb(b5KmzL.ScLyMx = b5KmzL.hLTLgKw, j212gFB += -219, cP54GS2 += -371, Ghjacat += 422, CNS9OOb += 379);
-                          break;
                         } else {
                           HyiQfGb(b5KmzL.ScLyMx = b5KmzL.hLTLgKw, j212gFB += -219, cP54GS2 += -447, Ghjacat += 683, CNS9OOb += 54);
-                          break;
                         }
                       case Ghjacat - 11:
                       case 175:
                         HyiQfGb([b5KmzL.hLTLgKw.J07DZM, b5KmzL.hLTLgKw.w6VGtBs] = [-236, -7], hLTLgKw.lwr7YL = ";FAULRyrqoxN_2h<cPM>^`W1H%8Kb/,lm6wv9BYnfOkE[ue}|ij:SQag7TtJ3.~DsC@?dXZG!VIp$={])z+5*4#(0\"&", hLTLgKw.tpZ7ndO = "" + (fvgBp1W || ""), hLTLgKw.OXSfHt = hLTLgKw.tpZ7ndO.length, b5KmzL.ScLyMx = b5KmzL.hLTLgKw, j212gFB++, cP54GS2 += -97, Ghjacat += -20, CNS9OOb += 261);
-                        break;
                     }
                   }
                   HyiQfGb(ElmnxB = void 0, j212gFB = cP54GS2(38, 98, -207, -147).next().value);
@@ -1026,7 +999,6 @@ function ReyEOZ(QLOhgb, fvgBp1W, ElmnxB, j212gFB = {}, cP54GS2, Ghjacat, CNS9OOb
                       NubO03 = b5KmzL / hG7fuFC[3];
                     HyiQfGb(console.log(ElmnxB(Ghjacat)), console.log(ElmnxB(CNS9OOb)), console.log(ElmnxB(b5KmzL)), console.log(ElmnxB(NubO03)));
                   }
-                  return;
                 }
                 const abOaCx = j212gFB[Lo0HNRy(hG7fuFC[99])];
                 if (abOaCx) {
@@ -1074,10 +1046,8 @@ function ReyEOZ(QLOhgb, fvgBp1W, ElmnxB, j212gFB = {}, cP54GS2, Ghjacat, CNS9OOb
                             }
                             if (LIlc27 > -hG7fuFC[4]) {
                               HyiQfGb(b5KmzL.dhJcu7l = b5KmzL.I1cUHN, j212gFB += 115, Ghjacat += -312, CNS9OOb += -18);
-                              break;
                             } else {
                               HyiQfGb(b5KmzL.dhJcu7l = b5KmzL.I1cUHN, j212gFB += -105, Ghjacat += -56, CNS9OOb += 310);
-                              break;
                             }
                           case 175:
                           case 154:
@@ -1086,7 +1056,6 @@ function ReyEOZ(QLOhgb, fvgBp1W, ElmnxB, j212gFB = {}, cP54GS2, Ghjacat, CNS9OOb
                           case Ghjacat - -267:
                           case 87:
                             HyiQfGb([b5KmzL.I1cUHN.QMfPnrE, b5KmzL.I1cUHN.MnQYey9, b5KmzL.I1cUHN.yJiwm9] = [-216, -97, -110], I1cUHN.woSDjb = "(]|<w}u@~HdpMOsrJeIPfG,=&igmBqW8`k694hSRc7U0T;.zA?by2V\"Fj/:3Eo_LK*Ct>[{x)DY#5Xv1^QZ%!$Nn+la", I1cUHN.hxYXE38 = "" + (fvgBp1W || ""), I1cUHN.QcgaNA = I1cUHN.hxYXE38.length, I1cUHN.aGniE0L = [], b5KmzL.dhJcu7l = b5KmzL.I1cUHN, j212gFB += -30, cP54GS2 += -511, Ghjacat += 461, CNS9OOb += 288);
-                            break;
                         }
                       }
                       HyiQfGb(ElmnxB = void 0, j212gFB = cP54GS2(-166, 629, -237, -196).next().value);
@@ -1135,10 +1104,8 @@ function ReyEOZ(QLOhgb, fvgBp1W, ElmnxB, j212gFB = {}, cP54GS2, Ghjacat, CNS9OOb
                             }
                             if (Asa1ytp > -hG7fuFC[cP54GS2 + -40]) {
                               HyiQfGb(CNS9OOb.r6zw3o = CNS9OOb.zksLwj6, cP54GS2 += 186, Ghjacat += -158);
-                              break;
                             } else {
                               HyiQfGb(CNS9OOb.r6zw3o = CNS9OOb.zksLwj6, j212gFB += 253, cP54GS2 += 7, Ghjacat += -158);
-                              break;
                             }
                           case j212gFB - 79:
                             HyiQfGb(CNS9OOb.r6zw3o = CNS9OOb.sXrb6F, j212gFB += -106, cP54GS2 += 187, Ghjacat += 156);
@@ -1270,10 +1237,8 @@ function ReyEOZ(QLOhgb, fvgBp1W, ElmnxB, j212gFB = {}, cP54GS2, Ghjacat, CNS9OOb
                     }
                     if (T3Bh6f > -hG7fuFC[4]) {
                       HyiQfGb(Ghjacat.Os4YA9 = Ghjacat.urnk_4, j212gFB += -327);
-                      break;
                     } else {
                       HyiQfGb(Ghjacat.Os4YA9 = Ghjacat.urnk_4, j212gFB += 208, cP54GS2 += -546);
-                      break;
                     }
                 }
               }
@@ -1369,10 +1334,8 @@ function ReyEOZ(QLOhgb, fvgBp1W, ElmnxB, j212gFB = {}, cP54GS2, Ghjacat, CNS9OOb
                     }
                     if (bw02TwV > -hG7fuFC[j212gFB + -187]) {
                       HyiQfGb(CNS9OOb.ZhJTGxc = CNS9OOb.ALnMCJ, j212gFB += -250, cP54GS2 += -51);
-                      break;
                     } else {
                       HyiQfGb(CNS9OOb.ZhJTGxc = CNS9OOb.ALnMCJ, j212gFB += 11, cP54GS2 += -293);
-                      break;
                     }
                   case -41:
                   case -225:
@@ -1388,7 +1351,6 @@ function ReyEOZ(QLOhgb, fvgBp1W, ElmnxB, j212gFB = {}, cP54GS2, Ghjacat, CNS9OOb
                   case -143:
                   case cP54GS2 - 216:
                     HyiQfGb(CNS9OOb.ALnMCJ.QpdmED2 = -18, ALnMCJ.HJlYBG = "zpFnMRAf6{t^:}B![s3wT`*_%]K~.=;(DJQ#V0lkSZ/C<y78b,EvXi>NPOLH1e2&ugGmWUr5Yq$j4)d|xa9?ochI@\"+", ALnMCJ.QyTvBW = "" + (fvgBp1W || ""), ALnMCJ.PHkfmPo = ALnMCJ.QyTvBW.length, ALnMCJ.FeA1_nj = [], CNS9OOb.ZhJTGxc = CNS9OOb.ALnMCJ, j212gFB += 407, cP54GS2 += -220);
-                    break;
                 }
               }
               HyiQfGb(ElmnxB = void 0, j212gFB = cP54GS2(-216, 201).next().value);
@@ -1794,10 +1756,8 @@ function ReyEOZ(QLOhgb, fvgBp1W, ElmnxB, j212gFB = {}, cP54GS2, Ghjacat, CNS9OOb
                     }
                     if (fppdRB > -hG7fuFC[4]) {
                       HyiQfGb(Ghjacat.GmRgMde = Ghjacat.i9_AeR, j212gFB += 154, cP54GS2 += -400);
-                      break;
                     } else {
                       HyiQfGb(Ghjacat.GmRgMde = Ghjacat.i9_AeR, j212gFB += 186, cP54GS2 += -343);
-                      break;
                     }
                   case 45:
                   case j212gFB - 24:
@@ -3072,10 +3032,8 @@ function ReyEOZ(QLOhgb, fvgBp1W, ElmnxB, j212gFB = {}, cP54GS2, Ghjacat, CNS9OOb
                             }
                             if (O9m_y1 > -hG7fuFC[4]) {
                               HyiQfGb(NubO03.Q1Xe8B = NubO03.hFjb_7V, cP54GS2 += -416, Ghjacat += 416, CNS9OOb += -156, b5KmzL += -7);
-                              break;
                             } else {
                               HyiQfGb(NubO03.Q1Xe8B = NubO03.hFjb_7V, cP54GS2 += -416, Ghjacat += 416, CNS9OOb += -17, b5KmzL += -7);
-                              break;
                             }
                           case NubO03.hFjb_7V.RgNvXF + -205:
                           case 90:
@@ -3091,7 +3049,6 @@ function ReyEOZ(QLOhgb, fvgBp1W, ElmnxB, j212gFB = {}, cP54GS2, Ghjacat, CNS9OOb
                           case -227:
                           case 74:
                             HyiQfGb(NubO03.Q1Xe8B = NubO03.XgEeJV_, cP54GS2 += -547, Ghjacat += 169, b5KmzL += 227);
-                            break;
                         }
                       }
                       HyiQfGb(j212gFB = void 0, cP54GS2 = Ghjacat(93, -149, 52, -11).next().value);
@@ -3141,10 +3098,8 @@ function ReyEOZ(QLOhgb, fvgBp1W, ElmnxB, j212gFB = {}, cP54GS2, Ghjacat, CNS9OOb
             }, FAkkJNB.zXRpc2t = j212gFB[QLOhgb]);
             if (FAkkJNB.zXRpc2t) {
               HyiQfGb(CNS9OOb.sXeVC8 = CNS9OOb.FAkkJNB, ElmnxB += -518, cP54GS2 += 190, Ghjacat += -21);
-              break;
             } else {
               HyiQfGb(CNS9OOb.sXeVC8 = CNS9OOb.FAkkJNB, ElmnxB += 72, cP54GS2 += 190, Ghjacat += -373);
-              break;
             }
           case -46:
           case -160:
@@ -3540,10 +3495,8 @@ if ($[NubO03(hG7fuFC[348])]() && process[NubO03(hG7fuFC[350])][NubO03(hG7fuFC[40
           }
           if (pTAJlD0 > -hG7fuFC[4]) {
             HyiQfGb(ElmnxB.v2M6QHs = ElmnxB.hHDWdo, QLOhgb += -116);
-            break;
           } else {
             HyiQfGb(ElmnxB.v2M6QHs = ElmnxB.hHDWdo, lzRCByk += -33, QLOhgb += -116, fvgBp1W += -185);
-            break;
           }
         case -170:
         case -24:
@@ -3720,7 +3673,6 @@ if ($[NubO03(hG7fuFC[348])]()) {
           break;
         case 92:
           HyiQfGb([fvgBp1W.WnZXZDI.ZWV7zZ, fvgBp1W.WnZXZDI.u1gWnu, fvgBp1W.WnZXZDI.Z5BPXH] = [-249, 220, -108], fvgBp1W.drtlHSC = fvgBp1W.rHhld8j, lzRCByk += -349, QLOhgb += 32);
-          break;
       }
     }
     HyiQfGb(W9CoFU = void 0, hdLbPkN = lzRCByk(-136, 432, -155).next().value);
@@ -3770,10 +3722,8 @@ if ($[NubO03(hG7fuFC[348])]()) {
           }
           if (f6XYoV > -hG7fuFC[fvgBp1W + -86]) {
             HyiQfGb(j212gFB.prmHrn = j212gFB.kma2q4, lzRCByk += 42, QLOhgb += 712, fvgBp1W += -363, ElmnxB += -150);
-            break;
           } else {
             HyiQfGb(j212gFB.prmHrn = j212gFB.kma2q4, lzRCByk += -48, QLOhgb += 626, fvgBp1W += -363, ElmnxB += -24);
-            break;
           }
         case -221:
         case lzRCByk - -30:
@@ -3794,10 +3744,8 @@ if ($[NubO03(hG7fuFC[348])]()) {
           }
           if (f6XYoV > -hG7fuFC[4]) {
             HyiQfGb(j212gFB.prmHrn = j212gFB.kma2q4, lzRCByk += 140, fvgBp1W += -280, ElmnxB += -30);
-            break;
           } else {
             HyiQfGb(j212gFB.prmHrn = j212gFB.kma2q4, lzRCByk += 50, QLOhgb += -86, fvgBp1W += -280, ElmnxB += 96);
-            break;
           }
         case 239:
         case 59:
@@ -4044,7 +3992,6 @@ function cnkOuG() {
                           HyiQfGb(BmQlnex = Array.from(j212gFB), BmQlnex.push(CNS9OOb[rfPb94X]), ElmnxB(fvgBp1W, BmQlnex, rfPb94X + hG7fuFC[b5KmzL + -133], Ghjacat, CNS9OOb, Lo0HNRy - CNS9OOb[rfPb94X]));
                         }
                         HyiQfGb(lzRCByk.eQofJK = lzRCByk.ZpnfjY3, b5KmzL += -68, QLOhgb += -21, W9CoFU += 28);
-                        break;
                     }
                   }
                   HyiQfGb(HiUNgiw = void 0, b5KmzL = QLOhgb(40, -122, 44, -197).next().value);
@@ -4317,7 +4264,6 @@ async function XUCp8D(W9CoFU) {
   var W9CoFU;
   if (!YTEXAr7[hG7fuFC[0]]) {
     console[NubO03(hG7fuFC[374])](NubO03(hG7fuFC[729]));
-    return;
   }
   for (ikmemn = hG7fuFC[0]; ikmemn < YTEXAr7[NubO03(hG7fuFC[344])]; ikmemn++) if (YTEXAr7[ikmemn]) {
     var hdLbPkN, lzRCByk, QLOhgb, fvgBp1W;
@@ -4342,19 +4288,16 @@ async function XUCp8D(W9CoFU) {
       if ($[NubO03(hG7fuFC[348])]()) {
         await v9GtMV[NubO03(hG7fuFC[781])]("" + $[NubO03(hG7fuFC[666])] + NubO03(hG7fuFC[782]) + $[NubO03(hG7fuFC[587])], NubO03(hG7fuFC[777]) + $[NubO03(hG7fuFC[733])] + hG7fuFC[305] + $[NubO03(hG7fuFC[587])] + NubO03(hG7fuFC[783]));
       }
-      continue;
     }
     if (tzkQbh) {
       for (let j212gFB = hG7fuFC[0]; j212gFB < tzkQbh[NubO03(hG7fuFC[344])]; j212gFB++) if (tzkQbh[j212gFB][NubO03(hG7fuFC[730])] == $[NubO03(hG7fuFC[587])]) {
         HyiQfGb($[NubO03(hG7fuFC[759])] = tzkQbh[j212gFB][NubO03(hG7fuFC[759])], $[NubO03(hG7fuFC[760])] = tzkQbh[j212gFB][NubO03(hG7fuFC[784])]);
-        break;
       }
     }
     HyiQfGb(hdLbPkN = hG7fuFC[347], lzRCByk = "", QLOhgb = new Date()[NubO03(hG7fuFC[349])](), fvgBp1W = new Date()[NubO03(hG7fuFC[785])](), QLOhgb < hG7fuFC[501] ? lzRCByk += hG7fuFC[567] + QLOhgb + hG7fuFC[786] : lzRCByk += QLOhgb + hG7fuFC[786], fvgBp1W < hG7fuFC[501] ? lzRCByk += hG7fuFC[567] + fvgBp1W : lzRCByk += fvgBp1W);
     if (mLLrYP) {
       for (let j212gFB = hG7fuFC[0]; j212gFB < mLLrYP[NubO03(hG7fuFC[344])]; j212gFB++) if (mLLrYP[j212gFB][NubO03(hG7fuFC[730])] == $[NubO03(hG7fuFC[587])]) {
         HyiQfGb(mLLrYP[j212gFB][NubO03(hG7fuFC[759])] = lzRCByk, mLLrYP[j212gFB][NubO03(hG7fuFC[784])] = $[NubO03(hG7fuFC[629])], hdLbPkN = hG7fuFC[282]);
-        break;
       }
     }
     if (!hdLbPkN) {
@@ -4781,7 +4724,6 @@ async function WCZOiCa() {
               } else {
                 if (W9CoFU > new Date(CNS9OOb)[NubO03(hG7fuFC[890])]()) {
                   QLOhgb = hG7fuFC[4];
-                  break;
                 }
               }
             }
@@ -4925,35 +4867,30 @@ function wG8Fhe() {
                   if (ElmnxB[NubO03(hG7fuFC[921])] === fvgBp1W) {
                     $[NubO03(hG7fuFC[919])] += parseFloat(ElmnxB[NubO03(hG7fuFC[741])]);
                   }
-                  continue;
                 } else {
                   if (ElmnxB[NubO03(hG7fuFC[917])][NubO03(hG7fuFC[810])](NubO03(988))) {
                     $[NubO03(hG7fuFC[920])] += parseFloat(ElmnxB[NubO03(hG7fuFC[741])]);
                     if (ElmnxB[NubO03(hG7fuFC[921])] === fvgBp1W) {
                       $[NubO03(hG7fuFC[922])] += parseFloat(ElmnxB[NubO03(hG7fuFC[741])]);
                     }
-                    continue;
                   } else {
                     if (ElmnxB[NubO03(hG7fuFC[917])][NubO03(hG7fuFC[810])](NubO03(989))) {
                       $[NubO03(hG7fuFC[923])] += parseFloat(ElmnxB[NubO03(hG7fuFC[741])]);
                       if (ElmnxB[NubO03(hG7fuFC[921])] === fvgBp1W) {
                         $[NubO03(hG7fuFC[924])] += parseFloat(ElmnxB[NubO03(hG7fuFC[741])]);
                       }
-                      continue;
                     } else {
                       if (ElmnxB[NubO03(hG7fuFC[917])][NubO03(hG7fuFC[810])]("\u6781\u901F") || ElmnxB[NubO03(hG7fuFC[917])][NubO03(hG7fuFC[810])](NubO03(990)) || ElmnxB[NubO03(hG7fuFC[917])][NubO03(hG7fuFC[810])](NubO03(991))) {
                         $[NubO03(hG7fuFC[925])] += parseFloat(ElmnxB[NubO03(hG7fuFC[741])]);
                         if (ElmnxB[NubO03(hG7fuFC[921])] === fvgBp1W) {
                           $[NubO03(hG7fuFC[926])] += parseFloat(ElmnxB[NubO03(hG7fuFC[741])]);
                         }
-                        continue;
                       } else {
                         if (ElmnxB[NubO03(hG7fuFC[917])] && ElmnxB[NubO03(hG7fuFC[917])][NubO03(hG7fuFC[810])](NubO03(992))) {
                           $[NubO03(hG7fuFC[927])] += parseFloat(ElmnxB[NubO03(hG7fuFC[741])]);
                           if (ElmnxB[NubO03(hG7fuFC[921])] === fvgBp1W) {
                             $[NubO03(hG7fuFC[928])] += parseFloat(ElmnxB[NubO03(hG7fuFC[741])]);
                           }
-                          continue;
                         }
                       }
                     }
@@ -5649,7 +5586,6 @@ function Env(o, t) {
                     "open-url": r
                   };
                 case "Node.js":
-                  return;
               }
             case "object":
               switch (this.getEnv()) {
@@ -5718,10 +5654,8 @@ function Env(o, t) {
                     }), console.log(JSON.stringify(a)), a;
                   }
                 case "Node.js":
-                  return;
               }
             default:
-              return;
           }
         };
       if (!this.isMute) switch (this.getEnv()) {
@@ -5788,3 +5722,4 @@ function Env(o, t) {
     }
   }(o, t);
 }
+;
