@@ -1,4 +1,4 @@
-//Thu Oct 09 2025 11:00:05 GMT+0000 (Coordinated Universal Time)
+//Thu Oct 16 2025 10:29:22 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
 const request = require("request"),
